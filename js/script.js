@@ -2,38 +2,28 @@
 
 // Функция для обработки мобильного меню
 function handleMobileMenu() {
-    const mobileMenuToggle = document.querySelector('.mobile-menu-toggle');
-    const menu = document.querySelector('.menu');
-    const ctaButtons = document.querySelector('.cta-buttons');
-    
-    if (mobileMenuToggle) {
-        mobileMenuToggle.addEventListener('click', function() {
-            this.classList.toggle('active');
-            
-            // Создаем мобильное меню, если его еще нет
-            if (!document.querySelector('.mobile-menu')) {
-                const mobileMenu = document.createElement('div');
-                mobileMenu.className = 'mobile-menu';
-                
-                // Клонируем основное меню и кнопки
-                const menuClone = menu.cloneNode(true);
-                const ctaButtonsClone = ctaButtons.cloneNode(true);
-                
-                mobileMenu.appendChild(menuClone);
-                mobileMenu.appendChild(ctaButtonsClone);
-                
-                // Добавляем мобильное меню после шапки
-                document.querySelector('#header').appendChild(mobileMenu);
-            }
-            
-            // Показываем/скрываем мобильное меню
-            const mobileMenu = document.querySelector('.mobile-menu');
-            if (mobileMenu) {
-                mobileMenu.classList.toggle('active');
-            }
-        });
-    }
-}
+    const burger = document.querySelector('.mobile-menu-toggle');
+    const menu   = document.querySelector('.menu');
+    const cta    = document.querySelector('.cta-buttons');
+  
+    if (!burger || !menu || !cta) return;
+  
+    burger.addEventListener('click', () => {
+      // toggle burger icon animation
+      burger.classList.toggle('active');
+  
+      // slide nav links and CTAs in/out
+      menu.classList.toggle('open');
+      cta.classList.toggle('open');
+    });
+  }
+  
+  document.addEventListener('DOMContentLoaded', () => {
+    handleMobileMenu();
+    handleHeaderScroll();
+    handleSmoothScroll();
+  });
+  
 
 // Функция для анимации шапки при прокрутке
 function handleHeaderScroll() {
@@ -146,3 +136,5 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     document.head.appendChild(style);
 });
+
+

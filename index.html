@@ -1,371 +1,617 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atlantys - ИИ Рекрутер | Управляй интеллектом</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/sections.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/sections.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <!-- Шапка сайта -->
     <header id="header">
-        <div class="container">
-            <div class="logo">
-                <a href="#"><img src="images/Atlantys logo.png" alt="Atlantys Logo"></a>
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="#features">Возможности</a></li>
-                    <li><a href="#pricing">Тарифы</a></li>
-                    <li><a href="#referral">Реферальная программа</a></li>
-                    <li><a href="#contact">Контакты</a></li>
-                </ul>
-            </nav>
-            <div class="cta-buttons">
-                <a href="https://platform.atlantys.kz/login" class="btn btn-secondary">Войти</a>
-                <a href="https://platform.atlantys.kz/login" class="btn btn-primary">Попробовать бесплатно</a>
-            </div>
-            <div class="mobile-menu-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
+      <div class="container">
+        <div class="logo">
+          <a href="#"
+            ><img
+              src="images/Atlantys logo.png"
+              width="200"
+              height="100"
+              alt="Atlantys Logo"
+          /></a>
         </div>
+        <nav>
+          <ul class="menu">
+            <li><a href="#features">Возможности</a></li>
+            <li><a href="#pricing">Тарифы</a></li>
+            <li><a href="#referral">Реферальная программа</a></li>
+            <li><a href="#contact">Контакты</a></li>
+          </ul>
+        </nav>
+        <div class="cta-buttons">
+          <a href="https://platform.atlantys.kz/login" class="btn btn-primary"
+            >Попробовать бесплатно</a
+          >
+        </div>
+        <div class="mobile-menu-toggle">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
     </header>
 
     <!-- Главный раздел (Hero) -->
     <section id="hero" class="hero-section">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Представляем: ИИ Рекрутер</h1>
-                <h2>Ваш интеллектуальный помощник в HR</h2>
-                <p>Закрытие вакансии всего за 2 часа! Сокращение времени на первоначальный отбор со 160 часов до 15 минут!</p>
-                <div class="hero-buttons">
-                    <a href="https://platform.atlantys.kz/login" class="btn btn-primary">Попробовать бесплатно</a>
-                    <a href="#features" class="btn btn-secondary">Узнать больше</a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <!-- Здесь будет изображение -->
-            </div>
+      <div class="container">
+        <div class="hero-content">
+          <h1>ИИ Рекрутер</h1>
+          <h2>Закрытие вакансии <br />всего за 2 часа!</h2>
+          <p>
+            Ваш интеллектуальный помощник в HR.<br />
+            Сокращение времени на первоначальный отбор <br />со
+            <strong style="color: white">160 часов до 15 минут!</strong>
+          </p>
+          <div class="hero-buttons">
+            <a href="https://platform.atlantys.kz/login" class="btn btn-primary"
+              >Попробовать бесплатно</a
+            >
+            <!-- <a href="#features" class="btn btn-secondary">Узнать больше</a> -->
+          </div>
         </div>
+        <div class="hero-image">
+          <!-- Здесь будет изображение -->
+          <img src="images/human-resourse.webp" alt="ИИ Рекрутер" />
+        </div>
+      </div>
     </section>
 
     <!-- Раздел с преимуществами -->
     <section id="benefits" class="benefits-section">
-        <div class="container">
-            <h2 class="section-title">Преимущества найма с ИИ Рекрутером</h2>
-            <div class="benefits-grid">
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-clock"></i>
-                    </div>
-                    <h3>Значительная экономия времени</h3>
-                    <p>Вы тонете в резюме и тратите бесчисленные часы на первоначальный отбор? Наш ИИ Рекрутер автоматизирует этот процесс.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-user-check"></i>
-                    </div>
-                    <h3>Более качественный наем</h3>
-                    <p>Повышение точности оценки кандидатов до 80%, что значительно превосходит традиционные 50%!</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-coins"></i>
-                    </div>
-                    <h3>Сокращение затрат</h3>
-                    <p>Автоматизация рутинных задач позволяет существенно снизить расходы на подбор персонала.</p>
-                </div>
-                <div class="benefit-card">
-                    <div class="benefit-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3>Исключение рутинных задач</h3>
-                    <p>Забудьте об изнурительных однотипных звонках и сообщениях. ИИ Рекрутер сделает это за вас.</p>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Преимущества найма с ИИ Рекрутером</h2>
+        <div class="benefits-grid">
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-clock"></i>
             </div>
+            <h3>Значительная экономия времени</h3>
+            <p>
+              Вы тонете в резюме и тратите бесчисленные часы на первоначальный
+              отбор? Наш ИИ Рекрутер автоматизирует этот процесс.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-user-check"></i>
+            </div>
+            <h3>Более качественный найм</h3>
+            <p>
+              Повышение точности оценки кандидатов до 80%, что значительно
+              превосходит традиционные 50%!
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-coins"></i>
+            </div>
+            <h3>Сокращение затрат</h3>
+            <p>
+              Автоматизация рутинных задач позволяет существенно снизить расходы
+              на подбор персонала.
+            </p>
+          </div>
+          <div class="benefit-card">
+            <div class="benefit-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <h3>Исключение рутинных задач</h3>
+            <p>
+              Забудьте об изнурительных однотипных звонках и сообщениях. ИИ
+              Рекрутер сделает это за вас.
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Раздел с функциями -->
     <section id="features" class="features-section">
-        <div class="container">
-            <h2 class="section-title">Как это работает?</h2>
-            <div class="feature-row">
-                <div class="feature-content">
-                    <h3>Умное создание вакансий</h3>
-                    <p>ИИ генерирует описания вакансий в соответствии со стандартами Трудового кодекса РК.</p>
-                </div>
-                <div class="feature-image">
-                    <!-- Здесь будет изображение -->
-                </div>
-            </div>
-            <div class="feature-row reverse">
-                <div class="feature-content">
-                    <h3>Интеллектуальный анализ резюме & персонализация вопросов</h3>
-                    <p>ИИ анализирует резюме по вашим критериям и формирует вопросы для каждого кандидата.</p>
-                </div>
-                <div class="feature-image">
-                    <!-- Здесь будет изображение -->
-                </div>
-            </div>
-            <div class="feature-row">
-                <div class="feature-content">
-                    <h3>Автоматизированный первый контакт</h3>
-                    <p>ИИ самостоятельно совершает первичные звонки и переписку — вы разговариваете только с действительно подходящими кандидатами.</p>
-                </div>
-                <div class="feature-image">
-                    <!-- Здесь будет изображение -->
-                </div>
-            </div>
-            <div class="feature-row reverse">
-                <div class="feature-content">
-                    <h3>Моментальное планирование собеседований</h3>
-                    <p>Интеграция с вашим календарем позволяет выбранным кандидатам сразу записаться на удобное время.</p>
-                </div>
-                <div class="feature-image">
-                    <!-- Здесь будет изображение -->
-                </div>
-            </div>
-            <div class="feature-row">
-                <div class="feature-content">
-                    <h3>Объективное ранжирование & рекомендации</h3>
-                    <p>Получаете структурированный отчёт по кандидатам, исключающий человеческий фактор и основанный только на данных.</p>
-                </div>
-                <div class="feature-image">
-                    <!-- Здесь будет изображение -->
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="section-title">Как это работает?</h2>
+        <div
+          class="feature-row"
+          style="border-radius: 20px; background-color: rgba(156, 79, 237, 0.1)"
+        >
+          <div class="feature-content">
+            <h3>Умное создание вакансий</h3>
+            <p>
+              ИИ генерирует описания вакансий в соответствии со стандартами
+              Трудового кодекса РК.
+            </p>
+          </div>
+          <div
+            class="feature-image"
+            style="background-color: #9c4fed; position: relative"
+          >
+            <!-- Здесь будет изображение -->
+            <img
+              src="./images/features/vacancy.png"
+              class="vacancy-image centered-image"
+              alt="Умное создание вакансий"
+            />
+          </div>
         </div>
+        <!-- style="background-color: RGB(5, 194, 136)" -->
+        <div
+          class="feature-row reverse"
+          style="border-radius: 20px; background-color: rgba(5, 194, 136, 0.1)"
+        >
+          <div class="feature-content">
+            <h3>Интеллектуальный анализ резюме & Персонализация вопросов</h3>
+            <p>
+              ИИ анализирует резюме по вашим критериям и формирует вопросы для
+              каждого кандидата.
+            </p>
+          </div>
+          <div class="feature-image" style="background-color: #05c288">
+            <!-- Здесь будет изображение -->
+            <img
+              src="./images/features/analysis.png"
+              class="analysis-image centered-image"
+              alt="Умное создание вакансий"
+            />
+          </div>
+        </div>
+        <div
+          class="feature-row"
+          style="border-radius: 20px; background-color: rgba(91, 114, 255, 0.1)"
+        >
+          <div class="feature-content">
+            <h3>Автоматизированный первый контакт</h3>
+            <p>
+              ИИ самостоятельно совершает первичные звонки и переписку — вы
+              разговариваете только с действительно подходящими кандидатами.
+            </p>
+          </div>
+          <div class="feature-image" style="background-color: #5b72ff">
+            <!-- Здесь будет изображение -->
+            <img
+              src="./images/features/ai-call.png"
+              alt="Умное создание вакансий"
+              class="ai-call-image centered-image"
+            />
+          </div>
+        </div>
+        <div
+          class="feature-row reverse"
+          style="border-radius: 20px; background-color: rgba(29, 46, 128, 0.1)"
+        >
+          <div class="feature-content">
+            <h3>Моментальное планирование собеседований</h3>
+            <p>
+              Интеграция с вашим календарем позволяет выбранным кандидатам сразу
+              записаться на удобное время.
+            </p>
+          </div>
+          <div class="feature-image" style="background-color: #1d2e80">
+            <img
+              src="./images/features/calendar.png"
+              alt="Умное создание вакансий"
+              class="calendar-image centered-image"
+            />
+
+            <!-- Здесь будет изображение -->
+          </div>
+        </div>
+        <div
+          class="feature-row"
+          style="border-radius: 20px; background-color: rgba(5, 194, 136, 0.1)"
+        >
+          <div class="feature-content">
+            <h3>Объективное ранжирование & рекомендации</h3>
+            <p>
+              Получаете структурированный отчёт по кандидатам, исключающий
+              человеческий фактор и основанный только на данных.
+            </p>
+          </div>
+          <div class="feature-image" style="background-color: #05c288">
+            <img
+              src="./images/features/resume-analysis.png"
+              alt="Умное создание вакансий"
+              class="resume-analysis-image centered-image"
+            />
+
+            <!-- Здесь будет изображение -->
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Раздел с тарифами -->
     <section id="pricing" class="pricing-section">
-        <div class="container">
-            <h2 class="section-title">Тарифы</h2>
-            <p class="section-description">Выберите подходящий тариф для вашего бизнеса</p>
-            <div class="pricing-grid">
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Free</h3>
-                        <p class="pricing-subtitle">Попробуйте бесплатно</p>
-                        <div class="pricing-price">
-                            <span class="price">0₸</span>
-                            <span class="period">/ 7 дней</span>
-                        </div>
-                    </div>
-                    <div class="pricing-features">
-                        <ul>
-                            <li>До 2 пользователей</li>
-                            <li>Генерация 1 вакансии</li>
-                            <li>Анализ 15 резюме</li>
-                            <li>Сообщения в HeadHunter.kz — 5</li>
-                            <li>WhatsApp-уведомления — общий номер</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-footer">
-                        <a href="https://platform.atlantys.kz/login" class="btn btn-primary">Попробовать бесплатно</a>
-                    </div>
-                </div>
-                <div class="pricing-card popular">
-                    <div class="popular-badge">Популярный</div>
-                    <div class="pricing-header">
-                        <h3>Standart</h3>
-                        <p class="pricing-subtitle">Для малого бизнеса (до 50 сотрудников)</p>
-                        <div class="pricing-price">
-                            <span class="price">85 000₸</span>
-                            <span class="period">/ месяц</span>
-                            <span class="old-price">155 000₸</span>
-                        </div>
-                    </div>
-                    <div class="pricing-features">
-                        <ul>
-                            <li>До 2 пользователей</li>
-                            <li>Генерация 5 вакансий</li>
-                            <li>Анализ 1000 резюме</li>
-                            <li>Сообщения в HeadHunter.kz — безлимит</li>
-                            <li>WhatsApp-уведомления — 1 персональный номер</li>
-                            <li>Поддержка: email и чат</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-footer">
-                        <a href="https://platform.atlantys.kz/login" class="btn btn-primary">Выбрать тариф</a>
-                    </div>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Pro</h3>
-                        <p class="pricing-subtitle">Для среднего бизнеса (50–250 сотрудников)</p>
-                        <div class="pricing-price">
-                            <span class="price">119 000₸</span>
-                            <span class="period">/ месяц</span>
-                            <span class="old-price">215 000₸</span>
-                        </div>
-                    </div>
-                    <div class="pricing-features">
-                        <ul>
-                            <li>До 4 пользователей</li>
-                            <li>Генерация 10 вакансий</li>
-                            <li>Анализ 3000 резюме</li>
-                            <li>Сообщения в HeadHunter.kz — безлимит</li>
-                            <li>WhatsApp-уведомления — 2 персональных номера</li>
-                            <li>Вебзвонки — 300 мин</li>
-                            <li>Поддержка: через WhatsApp</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-footer">
-                        <a href="https://platform.atlantys.kz/login" class="btn btn-primary">Выбрать тариф</a>
-                    </div>
-                </div>
-                <div class="pricing-card">
-                    <div class="pricing-header">
-                        <h3>Ultra</h3>
-                        <p class="pricing-subtitle">Для крупного бизнеса (250–500 сотрудников)</p>
-                        <div class="pricing-price">
-                            <span class="price">137 000₸</span>
-                            <span class="period">/ месяц</span>
-                            <span class="old-price">305 000₸</span>
-                        </div>
-                    </div>
-                    <div class="pricing-features">
-                        <ul>
-                            <li>До 8 пользователей</li>
-                            <li>Генерация 15 вакансий</li>
-                            <li>Анализ 5000 резюме</li>
-                            <li>Сообщения в HeadHunter.kz — безлимит</li>
-                            <li>WhatsApp-уведомления — 4 персональных номера</li>
-                            <li>Вебзвонки — 500 мин или телефонные звонки — 300 мин</li>
-                            <li>Поддержка: через телеграм-бот</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-footer">
-                        <a href="https://platform.atlantys.kz/login" class="btn btn-primary">Выбрать тариф</a>
-                    </div>
-                </div>
-                <div class="pricing-card flex-card">
-                    <div class="pricing-header">
-                        <h3>Flex</h3>
-                        <p class="pricing-subtitle">Гибкий тариф под ваши задачи</p>
-                        <div class="pricing-price">
-                            <span class="custom-price">Индивидуально</span>
-                        </div>
-                    </div>
-                    <div class="pricing-features">
-                        <ul>
-                            <li>Пользователи — по запросу</li>
-                            <li>Генерация вакансий — по запросу</li>
-                            <li>Анализ резюме — по запросу</li>
-                            <li>WhatsApp-уведомления — любое количество номеров</li>
-                            <li>Вебзвонки и телефонные звонки — по потребности</li>
-                            <li>Техподдержка включена</li>
-                        </ul>
-                    </div>
-                    <div class="pricing-footer">
-                        <a href="https://platform.atlantys.kz/login" class="btn btn-primary">Получить предложение</a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Тарифы</h2>
+        <p class="section-description">
+          Выберите подходящий тариф для вашего бизнеса
+        </p>
+        <div class="pricing-grid top-row">
+          <!-- Free -->
+          <div class="pricing-card">
+            <div class="pricing-header" style="height: 200px">
+              <h3>Free</h3>
+              <p class="pricing-subtitle">Попробуйте бесплатно</p>
+              <div
+                class="flex-pricing"
+                style="
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                "
+              >
+                <p class="price">0₸</p>
+                <p class="period">/ 7 дней</p>
+              </div>
             </div>
+            <div class="pricing-features" style="margin-bottom: 70px">
+              <ul>
+                <li>До 2 пользователей</li>
+                <li>Генерация 1 вакансии</li>
+                <li>Анализ 15 резюме</li>
+                <li>Сообщения в HeadHunter.kz — 5</li>
+                <li>WhatsApp-уведомления — общий номер</li>
+              </ul>
+            </div>
+            <div
+              class="pricing-footer"
+              style="position: absolute; bottom: 0; left: 0; right: 0"
+            >
+              <a
+                href="https://platform.atlantys.kz/login"
+                class="btn btn-primary"
+                >Попробовать бесплатно</a
+              >
+            </div>
+          </div>
+          <!-- Flex -->
+          <div class="pricing-card flex-card">
+            <div class="pricing-header" style="height: 200px">
+              <h3>Flex</h3>
+              <p class="pricing-subtitle">Гибкий тариф под ваши задачи</p>
+              <div class="pricing-price">
+                <span class="custom-price">Индивидуально</span>
+              </div>
+            </div>
+            <div class="pricing-features" style="margin-bottom: 50px">
+              <ul>
+                <li>Пользователи — по запросу</li>
+                <li>Генерация вакансий — по запросу</li>
+                <li>Анализ резюме — по запросу</li>
+                <li>WhatsApp-уведомления — любое количество номеров</li>
+                <li>Вебзвонки и телефонные звонки — по потребности</li>
+                <li>Техподдержка включена</li>
+              </ul>
+            </div>
+            <div
+              class="pricing-footer"
+              style="position: absolute; bottom: 0; left: 0; right: 0"
+            >
+              <a
+                href="https://platform.atlantys.kz/login"
+                class="btn btn-primary"
+                >Получить предложение</a
+              >
+            </div>
+          </div>
         </div>
+        <div class="pricing-grid bottom-row" style="margin-top: 40px">
+          <div class="pricing-card popular">
+            <div class="popular-badge">Популярный</div>
+            <div class="pricing-header">
+              <h3>Standart</h3>
+              <p class="pricing-subtitle">
+                Для малого бизнеса <br />
+                (до 50 сотрудников)
+              </p>
+              <div class="pricing-price">
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <span class="old-price">139 000₸</span>
+                  <span class="period">&nbsp;/ мес</span>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <span class="price">104 000₸</span>
+                  <span>&nbsp;с промокодом</span>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-features">
+              <ul>
+                <li>До 2 пользователей</li>
+                <li>Генерация 5 вакансий</li>
+                <li>Анализ 1000 резюме</li>
+                <li>Сообщения в HeadHunter.kz — безлимит</li>
+                <li>WhatsApp-уведомления — 1 персональный номер</li>
+                <li>Поддержка: email и чат</li>
+              </ul>
+            </div>
+            <div
+              class="pricing-footer"
+              style="position: absolute; bottom: 0; left: 0; right: 0"
+            >
+              <a
+                href="https://platform.atlantys.kz/login"
+                class="btn btn-primary"
+                >Выбрать тариф</a
+              >
+            </div>
+          </div>
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Pro</h3>
+              <p class="pricing-subtitle">
+                Для среднего бизнеса <br />
+                (50–250 сотрудников)
+              </p>
+              <div class="pricing-price">
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <span class="old-price">219 000₸</span>
+                  <span class="period">&nbsp;/ мес</span>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <span class="price">164 000₸</span>
+                  <span>&nbsp;с промокодом</span>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-features">
+              <ul>
+                <li>До 4 пользователей</li>
+                <li>Генерация 10 вакансий</li>
+                <li>Анализ 3000 резюме</li>
+                <li>Сообщения в HeadHunter.kz — безлимит</li>
+                <li>WhatsApp-уведомления — 2 персональных номера</li>
+                <li>Вебзвонки — 300 мин</li>
+                <li>Поддержка: через WhatsApp</li>
+              </ul>
+            </div>
+            <div
+              class="pricing-footer"
+              style="position: absolute; bottom: 0; left: 0; right: 0"
+            >
+              <a
+                href="https://platform.atlantys.kz/login"
+                class="btn btn-primary"
+                >Выбрать тариф</a
+              >
+            </div>
+          </div>
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Ultra</h3>
+              <p class="pricing-subtitle">
+                Для крупного бизнеса <br />
+                (250–500 сотрудников)
+              </p>
+              <div class="pricing-price">
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <span class="old-price">339 000₸</span>
+                  <span class="period">&nbsp;/ мес</span>
+                </div>
+                <div
+                  style="
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <span class="price">254 000₸</span>
+                  <span>&nbsp;с промокодом</span>
+                </div>
+              </div>
+            </div>
+            <div class="pricing-features" style="margin-bottom: 50px">
+              <ul>
+                <li>До 8 пользователей</li>
+                <li>Генерация 15 вакансий</li>
+                <li>Анализ 5000 резюме</li>
+                <li>Сообщения в HeadHunter.kz — безлимит</li>
+                <li>WhatsApp-уведомления — 4 персональных номера</li>
+                <li>Вебзвонки — 500 мин или телефонные звонки — 300 мин</li>
+                <li>Поддержка: через телеграм-бот</li>
+              </ul>
+            </div>
+            <div
+              class="pricing-footer"
+              style="position: absolute; bottom: 0; left: 0; right: 0"
+            >
+              <a
+                href="https://platform.atlantys.kz/login"
+                class="btn btn-primary"
+                >Выбрать тариф</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Раздел с реферальной программой -->
     <section id="referral" class="referral-section">
-        <div class="container">
-            <h2 class="section-title">Реферальная программа</h2>
-            <p class="section-description">Зарабатывайте с Atlantys!</p>
-            <div class="referral-content">
-                <div class="referral-info">
-                    <h3>Для партнеров:</h3>
-                    <p>Получайте бонус 25% за каждую покупку привлеченного вами клиента!</p>
-                    <h3>Для клиентов:</h3>
-                    <p>Получаете скидку 25% на каждую покупку!</p>
-                    <h3>Как работает реферальная программа?</h3>
-                    <ol>
-                        <li>Зарегистрируйтесь на платформе и получите уникальный промокод</li>
-                        <li>Рекомендуйте ИИ Рекрутера друзьям и коллегам</li>
-                        <li>Новый клиент использует ваш промокод и получает скидку 25%</li>
-                        <li>Вы получаете бонус 25% от суммы покупки клиента</li>
-                    </ol>
-                    <div class="referral-example">
-                        <h4>Пример:</h4>
-                        <p>Клиент выбрал пакет "Standart" за 155 000 ₸. Используя Ваш промо-код, купил со скидкой за 85 000 ₸. Вы заработали 25 000 ₸.</p>
-                    </div>
-                </div>
-                <div class="referral-cta">
-                    <div class="referral-card">
-                        <h3>Присоединяйтесь к реферальной программе</h3>
-                        <p>Начните зарабатывать с Atlantys уже сегодня!</p>
-                        <a href="https://platform.atlantys.kz/login" class="btn btn-primary">Присоединиться</a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="section-title">Реферальная программа</h2>
+        <p class="section-description">Зарабатывайте с Atlantys!</p>
+        <div class="referral-content">
+          <div class="referral-info">
+            <h3>Для партнеров:</h3>
+            <p>
+              Получайте от 30 000 тенге до 70 000 тенге за каждую покупку
+              привлеченного вами клиента!
+            </p>
+            <h3>Для клиентов:</h3>
+            <p>Получаете скидку 25% на каждую покупку!</p>
+            <h3>Как работает реферальная программа?</h3>
+            <ol>
+              <li>
+                Зарегистрируйтесь на платформе и получите уникальный промокод
+              </li>
+              <li>Рекомендуйте ИИ Рекрутера друзьям и коллегам</li>
+              <li>
+                Новый клиент использует ваш промокод и получает скидку 25%
+              </li>
+              <li>Вы получаете бонус до 70 000 тг</li>
+            </ol>
+            <div class="referral-example">
+              <h4>Пример:</h4>
+              <p>
+                Клиент выбрал пакет "Standart" за 139 000 ₸. Используя Ваш
+                промо-код, купил со скидкой за 104 000 ₸. Вы заработали 30 000
+                ₸.
+              </p>
             </div>
+          </div>
+
+          <form
+            class="referral-cta"
+            action="https://script.google.com/macros/s/AKfycbxtN3hFlqhDYLLh_KpM-mgrUH7OhMuThF2ou_3N4HY6B9TTcRnqojY0J-N-jn-dXdcq/exec"
+            method="POST"
+          >
+            <div class="referral-card">
+              <h3>Зарабатывайте с Atlantys!</h3>
+              <p>Оставьте заявку для получения промокода</p>
+
+              <label>
+                <span>Имя</span>
+                <input type="text" name="name" required />
+              </label>
+
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" required />
+              </label>
+
+              <button type="submit" class="btn btn-primary">
+                Отправить заявку
+              </button>
+            </div>
+          </form>
         </div>
+      </div>
     </section>
 
     <!-- Раздел с призывом к действию -->
     <section id="cta" class="cta-section">
-        <div class="container">
-            <h2>Начните работу с ИИ Рекрутером уже сегодня!</h2>
-            <p>7 дней БЕСПЛАТНО</p>
-            <p>Зарегистрируйтесь на платформе сейчас — это займет всего 1 минуту</p>
-            <a href="https://platform.atlantys.kz/login" class="btn btn-primary btn-large">Попробовать бесплатно</a>
-        </div>
+      <div class="container">
+        <h2>Начните работу с ИИ Рекрутером уже сегодня!</h2>
+        <p>7 дней БЕСПЛАТНО</p>
+        <p>Зарегистрируйтесь на платформе сейчас — это займет всего 1 минуту</p>
+        <a
+          href="https://platform.atlantys.kz/login"
+          class="btn btn-primary btn-large"
+          >Попробовать бесплатно</a
+        >
+      </div>
     </section>
 
     <!-- Футер -->
     <footer id="contact" class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="images/Atlantys logo.png" alt="Atlantys Logo">
-                    <p>Atlantys — мы создаем умные ИИ-решения для вашего бизнеса</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>Продукт</h4>
-                        <ul>
-                            <li><a href="#features">Возможности</a></li>
-                            <li><a href="#pricing">Тарифы</a></li>
-                            <li><a href="#referral">Реферальная программа</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Компания</h4>
-                        <ul>
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="#">Блог</a></li>
-                            <li><a href="#">Карьера</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>Контакты</h4>
-                        <ul>
-                            <li><a href="tel:+77000221948">+7 700 022 1948</a></li>
-                            <li><a href="tel:+77058058259">+7 705 805 8259</a></li>
-                            <li><a href="mailto:main@atlantys.kz">main@atlantys.kz</a></li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <img src="images/Atlantys-white-logo.png" alt="Atlantys Logo" />
+            <p>Atlantys — мы создаем умные ИИ-решения для вашего бизнеса</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Продукт</h4>
+              <ul>
+                <li><a href="#features">Возможности</a></li>
+                <li><a href="#pricing">Тарифы</a></li>
+                <li><a href="#referral">Реферальная программа</a></li>
+              </ul>
             </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Atlantys. Все права защищены.</p>
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-facebook"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                </div>
+            <!-- <div class="footer-column">
+              <h4>Компания</h4>
+              <ul>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#">Карьера</a></li>
+              </ul>
+            </div> -->
+            <div class="footer-column">
+              <h4>Контакты</h4>
+              <ul>
+                <li><a href="tel:+77000221948">+7 700 022 1948</a></li>
+                <li><a href="tel:+77058058259">+7 705 805 8259</a></li>
+                <li><a href="mailto:main@atlantys.kz">main@atlantys.kz</a></li>
+              </ul>
             </div>
+          </div>
         </div>
+        <div class="footer-bottom">
+          <p>&copy; 2025 Atlantys. Все права защищены.</p>
+          <div class="social-links">
+            <a
+              target="_blank"
+              href="https://www.facebook.com/people/Atlantys-AI/61567155543030/"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a target="_blank" href="https://www.youtube.com/@AtlantysAI"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/company/atlantys-ai"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a target="_blank" href="https://www.instagram.com/atlantys.ai/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
     </footer>
 
     <script src="js/script.js"></script>
     <script src="js/animations.js"></script>
-</body>
+  </body>
 </html>

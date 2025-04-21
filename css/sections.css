@@ -37,7 +37,7 @@
 .hero-image img {
     max-width: 100%;
     border-radius: var(--border-radius-lg);
-    box-shadow: var(--shadow-lg);
+    /* box-shadow: var(--shadow-lg); */
 }
 
 /* Стили для секции с ИИ Рекрутером */
@@ -129,6 +129,7 @@
 
 .animate-on-scroll {
     opacity: 0;
+    visibility: visible;
     animation: fadeIn 0.8s ease forwards;
 }
 
